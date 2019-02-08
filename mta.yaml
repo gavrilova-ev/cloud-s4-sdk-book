@@ -2,15 +2,9 @@ ID: cloud-s4-sdk-book
 _schema-version: '2.1'
 version: 0.0.1
 modules:
-  - name: application
+  - name: project
     type: java
-    path: application
-    parameters:
-      memory: 1024M
-      disk-quota: 256M
-  - name: tests
-    type: java
-    path: integration-tests
+    path: project
     parameters:
       memory: 1024M
       disk-quota: 256M
