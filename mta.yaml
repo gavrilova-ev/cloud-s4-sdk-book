@@ -8,3 +8,9 @@ modules:
     parameters:
       memory: 1024M
       disk-quota: 256M
+  - name: tests
+    type: java
+    path: integration-tests
+    parameters:
+      memory: 1024M
+      disk-quota: 256M
