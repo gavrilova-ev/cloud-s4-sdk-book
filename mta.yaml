@@ -4,7 +4,7 @@ version: 0.0.1
 modules:
   - name: project
     type: java
-    path: ""
+    path: project
     parameters:
       memory: 1024M
       disk-quota: 256M
