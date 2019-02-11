@@ -2,7 +2,7 @@ ID: cloud-s4-sdk-book
 _schema-version: '2.1'
 version: 0.0.1
 modules:
- - name: address-manager-cap-srv
+ - name: srv
    type: java
    path: srv
    parameters:
@@ -21,23 +21,6 @@ modules:
    requires:
     - name: my-destination
     - name: my-xsuaa
-    
-# - name: address-manager-cap-frontend
-#   type: html5
-#   path: frontend
-#   parameters:
-#      disk-quota: 256M
-#      memory: 256M
-#   build-parameters:
-#     builder: grunt
-#   requires:
-#    - name: srv_api
-#      group: destinations
-#      properties:
-#         forwardAuthToken: true
-#         strictSSL: false
-#         name: srv_api
-#         url: ~{url}
 
 resources:
  - name: my-destination
